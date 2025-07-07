@@ -1,0 +1,123 @@
+/* Custom styles for Food, LLC website */
+
+/* Navbar styling */
+.navbar {
+    border-radius: 0;
+    border: none;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    color: #333 !important;
+}
+
+/* Mobile menu styling */
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: #f8f8f8;
+        border-top: 1px solid #e7e7e7;
+        margin-top: 10px;
+    }
+    
+    .navbar-nav > li > a {
+        text-align: center;
+        background-color: #f8f8f8;
+        border-bottom: 1px solid #e7e7e7;
+        padding: 15px;
+        font-weight: bold;
+    }
+    
+    .navbar-nav > li > a:hover {
+        background-color: #e7e7e7;
+    }
+}
+
+/* Page header styling */
+.page-header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Main content section */
+.main-content {
+    background-color: #f9f9f9;
+    min-height: 1000px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.content-wrapper {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.content-wrapper h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.content-wrapper h3 {
+    color: #555;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.content-wrapper p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+    color: #666;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+    .main-content {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .page-header {
+        font-size: 28px;
+    }
+    
+    .main-content {
+        padding: 15px;
+    }
+    
+    .content-wrapper {
+        padding: 20px;
+    }
+    
+    .content-wrapper h2 {
+        font-size: 24px;
+    }
+    
+    .content-wrapper h3 {
+        font-size: 20px;
+    }
+}
+
+/* Ensure proper spacing */
+body {
+    padding-top: 0;
+}
+
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
